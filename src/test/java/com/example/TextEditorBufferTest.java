@@ -81,4 +81,3 @@ public class TextEditorBufferTest {
         assertThat(buffer.getLastChar()).isNull();
     }
 }
-
