@@ -36,7 +36,7 @@ public class TextEditorBuffer {
 
     // Output last character
     public Character getLastChar() {
-        return buffer.length() == 0 ? null : buffer.charAt(buffer.length() - 1);
+        return buffer.isEmpty() ? null : buffer.charAt(buffer.length() - 1);
     }
 
     // Internal interface and operation types
